@@ -1,0 +1,664 @@
+/*ordem
+1-menu
+2-slider
+3-conteudos especiais
+4-outros conteudos
+5-artigos
+6-atlas
+7-formulariodecadastro
+8-footer
+9-mediaqueries
+*/
+/*1-menu*/
+.navbar{
+    height: 70px;
+}
+ul.navbar-nav {
+    margin-left: auto;
+    font-size: 1.2em;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(158, 108, 156);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgb(153, 49, 153);
+}
+.nav-link:hover{
+    color:violet !important;
+}
+.nav-link:focus{
+    color:rgb(109, 6, 177) !important;
+}
+form input, input:focus, textarea {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    padding-right: 10px;
+    width: 95%;
+    margin: 5px;
+    margin-left: 0px;
+    border: none;
+    border-color: none;
+    outline: none;
+}
+#menu {
+    background-color: white;
+}
+#menu .navbar-brand img{
+    width: auto;
+    height: 65px;
+}
+#menu form img {
+    width: 18px;
+    height: auto;
+    border: 0;
+}
+/*fim menu*/
+/*2-slider*/
+#slider {
+    position: relative;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.carousel-item {
+    height: 650px;
+    object-position: center;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: 50% !important;
+}
+.carousel-caption {
+    background-color: rgba(0,0,0, 50%);
+    width: 40%;
+    margin-bottom: 10%;
+}
+/*fim slider*/
+/*3-conteudos especiais*/
+h2 {
+    color: rgb(253, 222, 252);
+    margin:30px 30px 30px 30px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.3em;
+    border-left: 5px;
+    border-left-style: solid;
+    border-left-color: violet;
+}
+p {
+    margin-bottom: 10px;
+}
+.bg-titulo {
+    background-color: rgb(70, 5, 83);
+    height: 100px;
+}
+.bgimg {
+    background-color: rgb(70, 5, 83);
+    height: 200px;
+    margin-top: 100px;
+}
+.bgesp1{
+    background-color: rgb(253, 222, 252);
+    height: 350px;
+    margin-top: 25px;
+    padding: 30px 30px 40px 30px !important;
+}
+#conteudosespeciais .container:nth-child(2){
+    padding: 0% !important;
+}
+#conteudosespeciais {
+    margin-top: 50px;
+}
+#conteudosespeciais img {
+    width: 100%;
+    height: 400px;
+    padding-left: 50px;
+    margin-top: -100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#conteudosespeciais .btn {
+    background-color: violet;
+    margin-top: 0;
+    margin-left: 70%;
+    color: rgb(70, 5, 83);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+#conteudosespeciais .btn:hover {
+    background-color:  rgb(70, 5, 83);
+    color: violet;
+}
+/*fim conteúdos especiais*/
+/*4-outros conteudos*/
+.card {
+    border-width: 0;
+    border-style: none;
+}
+.sub-title {
+    color: rgb(112, 111, 111);
+}
+h3.card-name {
+    background-color:rgb(70, 5, 83);
+    color:rgb(253, 222, 252);
+    margin-left: -15px;
+    margin-top: -20px;
+    padding: 10px;
+    width: 60%;
+    position: absolute;
+}
+#outrosconteudos .card-img-top {
+    height: 380px;
+}
+#outrosconteudos .card-body {
+    height: 300px;
+    padding-top: 70px;
+    border-bottom: 10px solid  rgb(70, 5, 83);
+}
+#outrosconteudos .card-text {
+    font-size: 1.3em;
+}
+#outrosconteudos {
+    margin-top: 60px;
+}
+#outrosconteudos img {
+    object-fit: cover;
+    object-position: center;
+}
+#outrosconteudos a {
+    color: black;
+}
+#outrosconteudos a:hover {
+    text-decoration: none;
+    background-color: rgb(219, 219, 219);
+}
+#outrosconteudos .col-lg-6:nth-child(2) {
+    padding-left: 30px;
+    padding-right: 0;
+}
+/*fim de outros conteudos*/
+/*5-artigos*/
+#artigos {
+    margin-top: 60px;
+}
+#artigos .container:nth-child(2) {
+    margin-top: 40px;
+}
+#artigos a {
+    color: black;
+}
+#artigos a:hover {
+    text-decoration: none;
+}
+#artigos img {
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+#artigos .card-img-top {
+    height: 200px;
+}
+#artigos h3.card-name {
+    width: 80%;
+}
+#artigos .card-body {
+    padding-top: 50px;
+    border-bottom: 10px solid  rgb(70, 5, 83);
+    background-color: rgb(253, 222, 252);
+}
+#artigos .sub-title {
+    font-size: 0.8em;
+}
+#artigos .btn.btn-primary {
+    margin-top: 20px;
+    margin-left: 80%;
+    width: 20%;
+    background-color: rgb(70, 5, 83);
+    color: rgb(253, 222, 252);
+    border-color: white;
+}
+/*fim de artigos*/
+/*6-atlas*/
+.bgatlas {
+    background-color: rgb(87, 2, 99);
+}
+#atlas {
+    margin-top: 60px;
+}
+#atlas .container {
+    padding: 0 !important;
+}
+#atlas a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+#atlas img.atlasback {
+    position: absolute;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: -10%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+#atlas img.atlas {
+    width: 100%;
+    height: 620px;
+    filter: saturate(20%) opacity(20%);
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    float: inline-start;
+}
+#atlas .card-img-overlay:nth-of-type(1) {
+    padding: 0 !important;
+}
+#atlas .card-img-overlay:nth-of-type(2) {
+    padding-top: 10%;
+    margin: 100px 100px 100px 100px;
+    background-color: rgba(0,0,0, 40%);
+    color: white;
+    text-align: center;
+}
+#atlas h4 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+#atlas h3 {
+    font-size: 5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 45px;
+}
+#atlas a.btn.btn-primary {
+    color:  rgb(253, 222, 252);
+    background-color: rgb(87, 2, 99);
+    border-color: white;
+    padding-top: 8px;
+    margin-top: 15px;
+    margin-left: 70%;
+    width: 30%;
+    height: 80%;
+}
+/*fim de atlas*/
+/*7-formulariodecadastro*/
+form p {
+    font-size: 1.3em;
+    width: 70%;
+    margin-bottom: 30px;
+}
+input .from-group, .form-control {
+    text-align: left;
+}
+.form-control:focus {
+    border-color:  rgb(87, 2, 99);
+}
+.formulariobg {
+    position: relative;
+    background-color: white;
+    height: 580px;
+    border-bottom: 30px solid  rgb(87, 2, 99);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#formulariodecadastro {
+    margin-top: 70px;
+}
+#formulariodecadastro h2{
+    text-transform: uppercase;
+    background-color: rgb(70, 5, 83);    
+}
+#formulariodecadastro .bg-titulo {
+    background-color: rgb(70, 5, 83);
+    width: 100%;
+    height: 148%;
+}
+#formulariodecadastro .container:nth-child(2) {
+    padding: 0 !important;
+}
+#formulariodecadastro img.formsubbg {
+    position: absolute;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: -10%;
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+}
+#formulariodecadastro form{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 40%;
+}
+#formulariodecadastro form input {
+    text-align: left;
+}
+#formulariodecadastro .btn {
+    border-color: white;
+    background-color: violet;
+    color: rgb(70, 5, 83);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 85%;
+}
+#formulariodecadastro .formulariobg img {
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 60%;
+    transform: rotate(15deg)
+}
+/*fim de formulariodecadastro */
+/*8-footer*/
+#footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    background-image: linear-gradient( 170deg, rgba(70, 5, 83, 100%) 55%, rgba(70, 5, 83, 20%) 120%), url("../img/flores_footer.jpg");
+    background-position: 50% 80%;
+    background-size: 100%;
+    height: 380px;
+    width: 100%;
+}
+#footer h4 {
+    color: rgb(253, 222, 252);
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+#footer h6 {
+    color: white;
+    font-size: 0.8em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+}
+#footer .list-group {
+    margin-top: 20px;
+    width: 70%;
+}
+#footer .list-group-item {
+    color:  white;
+    background: none;
+    border:none;
+    border-bottom: 1px solid rgb(253, 222, 252);
+}
+#footer .list-group-item:hover {
+    color:fuchsia;
+    border-bottom: 1px solid fuchsia;
+}
+.footer-text a {
+    color: white;
+}
+.footer-text a:hover {
+    color: fuchsia;
+    text-decoration: none;
+}
+.footer-medias img {
+    width: 15%;
+    filter: brightness(2);
+    margin: 20px 5px 0px 5px;
+}
+.footer-medias img:hover {
+    border: 2px solid fuchsia;
+    border-radius: 50%;
+}
+/*fim de footer*/
+
+/*#slider p{
+    ...
+    transition: all 2s ease;
+}*/
+
+/*9-mediaqueries*/
+@media (max-width: 1199.98px) {
+    #slider p {
+        font-size: 0.9em;
+    }
+    #outrosconteudos .card-text{
+        font-size: 1.1em;
+    }
+    #atlas a.btn.btn-primary {
+        width: 35%;
+        margin-left: 65%
+    }
+}
+
+@media (max-width: 991.98px) {
+    #menu form input {
+        width: 90%;
+    }
+    #slider p {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #conteudosespeciais .bgesp1{
+        height: 250px;
+    }
+    #conteudosespeciais .btn{
+        margin-left: 85%;
+    }
+    #outrosconteudos .col-lg-6:nth-child(1){
+        padding-right: 0px;
+    }
+    #outrosconteudos .col-lg-6:nth-child(2){
+        padding-left: 15px;
+    }
+    #outrosconteudos .card {
+        margin-bottom: 50px;
+    }
+    #outrosconteudos .card-body {
+        height: 250px;
+        display: none;
+    }
+    #artigos .col-lg-4 {
+        width: 50%;
+    }
+    #artigos .col-lg-4:nth-child(3) {
+        margin-left: 25%;
+        margin-top: 25px
+    }
+    #artigos .btn.btn-primary {
+        margin-left: 75%;
+        width: 25%;
+    }
+    #atlas a.btn.btn-primary{
+        width: 45%;
+        margin-left: 55%;
+    }
+    #formulariodecadastro .formulariobg img {
+        width: 250px;
+        margin-top: 30%;
+    }
+    #footer .col-lg-4 {
+        width: 50%;
+    }
+    #footer .col-lg-4:nth-child(3) {
+        margin-left: auto;
+        margin-top: -15%;
+    }
+}
+
+@media (max-width: 767.98px){
+    h2 {
+        font-size: 2em;
+        margin: 30px 30px 30px 30px;
+    }
+    #menu .navbar-brand img {
+        height: 50px;
+    }
+    #menu form input {
+        width: 80%;
+    }
+    #slider {
+        display: none;
+    }
+    #conteudosespeciais .bgimg {
+        margin-top: 50px;
+    }
+    #conteudosespeciais img {
+        height: 300px;
+        margin-top: -50px;
+    }
+    #conteudosespeciais .bgesp1 {
+        height: 180px;
+    }
+    #conteudosespeciais p:nth-child(3){
+        display: none;
+    }
+    #conteudosespeciais .btn {
+        margin-left: 80%;
+        width: 20%;
+    }
+    #outrosconteudos .card-img-top {
+        height: 250px;
+    }
+    #outrosconteudos h3.card-name {
+        width: 80%;
+    }
+    #outrosconteudos .col-lg-6:nth-child(1){
+        padding-right: 0px;
+    }
+    #outrosconteudos .col-lg-6:nth-child(2){
+        padding-left: 15px;
+    }
+    #outrosconteudos .card {
+        margin-bottom: 50px;
+    }
+    #outrosconteudos .card-body {
+        display: none;
+    }
+    #artigos {
+        margin-top: 40px;
+    }
+    #artigos .col-lg-4 {
+        margin-bottom: 20px
+    }
+    #artigos h3.card-name {
+        width: 90%;
+        font-size: 1.7em;
+    }
+    #artigos .sub-title {
+        display: none;
+    }
+    #artigos .card-text {
+        display: none;
+    }
+    #artigos .btn.btn-primary {
+        margin-top: 0;
+        margin-left: 40%;
+        width: 60%;
+    }
+    #atlas img.atlasback {
+        display: none;
+    }
+    #atlas img.atlas {
+        height: 500px;
+    }
+    #atlas .card-img-overlay:nth-of-type(2) {
+        padding-top: 20%;
+        margin: 125px 30px 50px 30px;
+    }
+    #atlas h4 {
+        font-size: 1.3em;
+    }
+    #atlas h3 {
+        font-size: 3em;
+    }
+    #atlas a.btn.btn-primary {
+        margin-left: 10%;
+        width: 80%;
+        height: auto;
+    }
+    #formulariodecadastro .formulariobg {
+        height: 350px;
+    }
+    #formulariodecadastro h2 {
+        font-size: 1.7em;
+    }
+    #formulariodecadastro img.formsubbg {
+        display: none;
+    }
+    #formulariodecadastro .formulariobg img {
+        display: none;
+    }
+    #formulariodecadastro form {
+        position: unset;
+        width: auto;
+    }
+    #formulariodecadastro .btn {
+        margin-left: 75%;
+        width: 20%;
+        font-size: 1.1em;
+    }
+    #footer {
+        height: 200px;
+    }
+    #footer .col-lg-4 {
+        padding-left: 0;
+        margin-left: 10%;
+        width: 250px;
+    }
+    #footer .col-lg-4:nth-child(1){
+        display: none;
+    }
+    #footer .col-lg-4:nth-child(3){
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 200px;
+    }
+    .footer-medias img {
+        width: 20%;
+    }
+}
+
+@media (max-width: 568px){
+    h2 {
+        font-size: 1.6em;
+        margin: 30px 10px 30px 10px;
+    }
+    #conteudosespeciais {
+        margin-top: 0px;
+    }
+    #conteudosespeciais h3 {
+        font-size: 1.3rem;
+    }
+    #conteudosespeciais .bgesp1 {
+        height: 150px;
+    }
+    #conteudosespeciais p {
+        display: none;
+    }
+    #conteudosespeciais .btn {
+        margin-left: 65%;
+        width: 40%;
+    }
+    #artigos .col-lg-4 {
+        width: 100%;
+    }
+    #artigos .col-lg-4:nth-child(3) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #formulariodecadastro h2 {
+        font-size: 1.3em;
+    }
+    #formulariodecadastro .btn {
+        margin-left: 70%;
+        width: 30%;
+    }
+    #footer {
+        height: 300px;
+    }
+    #footer .col-lg-4:nth-child(3) {
+        margin-left: 10%;
+    }
+}
