@@ -31,6 +31,10 @@ ul.navbar-nav {
 .nav-link:focus{
     color:rgb(109, 6, 177) !important;
 }
+.navbar-collapse {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
 form input, input:focus, textarea {
     text-align: right;
     font-family: 'Times New Roman', Times, serif;
