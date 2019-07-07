@@ -437,6 +437,9 @@ input .from-group, .form-control {
 }
 
 @media (max-width: 991.98px) {
+    .navbar-collapse a.nav-link {
+        border-bottom: 1px solid rgb(109, 6, 177);
+    }
     #menu form input {
         width: 90%;
     }
